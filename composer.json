@@ -1,0 +1,24 @@
+{
+    "name": "dois/validation",
+    "description": "Pacote com regras de valida\u0000\u0000o de campos de formul\u0000rio para Laravel usado na Dois Comunica\u0000\u0000o",
+    "type": "laravel-plugin",
+    "authors": [
+        {
+            "name": "Marcel Cunha",
+            "email": "marcel.cunha.mc@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Dois\\Validation\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dois\\Validation\\ValidationProvider"
+            ]
+        }
+    }
+}
