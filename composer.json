@@ -1,6 +1,6 @@
 {
-    "name": "dois/validation",
-    "description": "Pacote com regras de valida\u0000\u0000o de campos de formul\u0000rio para Laravel usado na Dois Comunica\u0000\u0000o",
+    "name": "mcdev/validator",
+    "description": "Pacote com regras de valida\u0000\u0000o de campos de formul\u0000rio para Laravel ",
     "type": "laravel-plugin",
     "authors": [
         {
@@ -11,13 +11,13 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Dois\\Validation\\": "src/"
+            "MCDev\\Validation\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Dois\\Validation\\ValidationProvider"
+                "MCDev\\Validation\\ValidationProvider"
             ]
         }
     }
